@@ -6,9 +6,11 @@
 	<title>audio</title>
 </head>
 <body>
+	<h1>音频自动播放</h1>
 	<audio id="audio"  src="http://storage.gzstv.net/uploads/media/sy/shouye.mp3" controls></audio>
 	<script>
 		window.onload = function(){
+			//https://wuxingzheng.github.io/audio.github.io/
 			var myaudio = document.getElementById('audio')
 			myaudio.play()
 			document.addEventListener("WeixinJSBridgeReady",function(){
